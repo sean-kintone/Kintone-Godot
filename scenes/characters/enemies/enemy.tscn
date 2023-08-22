@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://duxvc0g74cn60"]
+
+[ext_resource type="Script" path="res://scenes/characters/enemies/enemy.gd" id="1_kerwm"]
+[ext_resource type="Texture2D" uid="uid://cdfmh7kjqxdtj" path="res://imports/Background 2 Sprite Sheet.png" id="1_mmw8q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mq23y"]
+size = Vector2(77, 84)
+
+[node name="enemy" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_kerwm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 3.14159
+texture = ExtResource("1_mmw8q")
+region_enabled = true
+region_rect = Rect2(1368, 592, 72, 80)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_mq23y")

@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1692683271
+::res://::1692683307
 icon.svg::CompressedTexture2D::3777538910028084099::1692677170::1692683272::1::::<><>::
-::res://imports/::1692678406
+::res://imports/::1692683272
 Background 2 Effects Sprite Sheet.png::CompressedTexture2D::3149981735444478319::1692678363::1692683272::1::::<><>::
 Background 2 Sprite Sheet.png::CompressedTexture2D::4994472588167587059::1692678363::1692683272::1::::<><>::
 Nebula Shot Levels - Sprite Sheet 32x32.png::CompressedTexture2D::4223235403643254458::1692678398::1692683272::1::::<><>::
@@ -9,15 +9,15 @@ Ship-Nebula - Sprite Sheet.png::CompressedTexture2D::6040942328820557694::169267
 ::res://scenes/::1692677350
 ::res://scenes/characters/::1692677369
 ::res://scenes/characters/enemies/::1692677369
-::res://scenes/characters/player/::1692683098
+::res://scenes/characters/player/::1692683300
 bullet.tscn::PackedScene::6601546969278897889::1692683098::0::1::::<><>::
-player.gd::GDScript::-1::1692683022::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::5033480217636627973::1692683098::0::1::::<><>::res://scenes/characters/player/player.gd<>uid://cscjo428emxmk::::res://imports/Ship-Nebula - Sprite Sheet.png
+player.gd::GDScript::-1::1692683300::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::5033480217636627973::1692683300::0::1::::<><>::res://scenes/characters/player/player.gd<>uid://cscjo428emxmk::::res://imports/Ship-Nebula - Sprite Sheet.png
 ::res://scenes/items/::1692677350
 ::res://scenes/levels/::1692677384
-::res://scenes/levels/level1/::1692683106
+::res://scenes/levels/level1/::1692683280
 background.gd::GDScript::-1::1692682008::0::1::::<>Node2D<>::
-level_1.tscn::PackedScene::2872919061416299088::1692683106::0::1::::<><>::res://scenes/levels/level1/background.gd<>uid://cdfmh7kjqxdtj::::res://imports/Background 2 Sprite Sheet.png<>uid://cdyixipo6oiph::::res://scenes/characters/player/player.tscn
+level_1.tscn::PackedScene::2872919061416299088::1692683280::0::1::::<><>::res://scenes/levels/level1/background.gd<>uid://cdfmh7kjqxdtj::::res://imports/Background 2 Sprite Sheet.png<>uid://cdyixipo6oiph::::res://scenes/characters/player/player.tscn
 ::res://scenes/levels/level2/::1692677384
 ::res://utilities/::1692677464
 ::res://utilities/resources/::1692677464

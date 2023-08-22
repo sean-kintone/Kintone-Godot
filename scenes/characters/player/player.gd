@@ -5,6 +5,7 @@ extends CharacterBody2D
 @onready var animation_player = $AnimationPlayer
 
 signal died
+signal hit
 
 enum States {IDLE, LEFT, RIGHT, SHOOT, DIE}
 @export var currentState : int = States.IDLE

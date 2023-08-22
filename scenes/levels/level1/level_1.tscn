@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://bg6ws7ekfn18o"]
+[gd_scene load_steps=6 format=3 uid="uid://bg6ws7ekfn18o"]
 
 [ext_resource type="Script" path="res://scenes/levels/level1/background.gd" id="1_wryxf"]
 [ext_resource type="Texture2D" uid="uid://cdfmh7kjqxdtj" path="res://imports/Background 2 Sprite Sheet.png" id="2_mybke"]
 [ext_resource type="PackedScene" uid="uid://cdyixipo6oiph" path="res://scenes/characters/player/player.tscn" id="3_ciwds"]
+[ext_resource type="PackedScene" uid="uid://c20tny4gnbvi1" path="res://scenes/hud/hud.tscn" id="4_cofnk"]
+[ext_resource type="PackedScene" uid="uid://duxvc0g74cn60" path="res://scenes/characters/enemies/enemy.tscn" id="5_s5tam"]
 
 [node name="level1Background" type="Node2D"]
 script = ExtResource("1_wryxf")
@@ -17,3 +19,16 @@ region_rect = Rect2(0, 0, 576, 1024.36)
 [node name="Player" parent="." instance=ExtResource("3_ciwds")]
 position = Vector2(393, 556)
 scale = Vector2(2, 2)
+
+[node name="hud" parent="." instance=ExtResource("4_cofnk")]
+
+[node name="enemy" parent="." instance=ExtResource("5_s5tam")]
+position = Vector2(205, 155)
+
+[node name="enemy2" parent="." instance=ExtResource("5_s5tam")]
+position = Vector2(628, 153)
+
+[node name="enemy3" parent="." instance=ExtResource("5_s5tam")]
+position = Vector2(874, 310)
+
+[connection signal="hit" from="Player" to="hud" method="_on_player_hit"]

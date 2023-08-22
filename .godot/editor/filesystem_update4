@@ -1,3 +1,7 @@
 res://scenes/levels/level1/level_1.tscn
 res://scenes/characters/player/player.tscn
 res://scenes/characters/player/player.gd
+res://scenes/hud/hud.tscn
+res://scenes/hud/hud.gd
+res://scenes/characters/enemies/enemy.tscn
+res://scenes/characters/enemies/enemy.gd
